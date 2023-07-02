@@ -1,5 +1,5 @@
 import "./Main.scss";
 
 export default function Main() {
-  return <main>Main</main>;
+  return <h1 className="main">Main</h1>;
 }
