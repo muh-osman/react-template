@@ -1,0 +1,24 @@
+@use "../../sass" as *;
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: $primary-clr;
+  padding: 0;
+  color: #000;
+
+  nav {
+    height: 100%;
+    @include center();
+    
+    ul {
+      @include center();
+      gap: 16px;
+
+      a:hover {
+        color: $primary-clr;
+        background-color: $secondary-clr;
+      }
+    }
+  }
+}
