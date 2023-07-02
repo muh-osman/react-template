@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import "./sass/normalize.scss"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// Sass file
+import "./sass/normalize.scss"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
