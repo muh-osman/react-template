@@ -1,5 +1,5 @@
-import "./Main.scss";
+import css from "./Main.module.scss";
 
 export default function Main() {
-  return <h1 className="main">Main</h1>;
+  return <h1 className={css.main}>Main</h1>;
 }
