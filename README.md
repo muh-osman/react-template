@@ -8,4 +8,6 @@ In the project directory, you can run:
 
 ### `npm i sass`
 
+### `npm i axios`
+
 ### `npm start`
